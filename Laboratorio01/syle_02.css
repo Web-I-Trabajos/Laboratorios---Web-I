@@ -1,0 +1,58 @@
+:root{ 
+    --color01: #08B088;
+    --color02: #222222;
+    --color03: #464646;
+/*     --color03: #ff9f00;
+    --color04: #f86924;
+    --color05: #35bc7a; */
+    --color04: #ffffff;
+}
+
+
+
+
+.linea-verde {
+    background-color: var(--color01);
+    color: var(--color04);
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.linea-verde nav a {
+    color: var(--color04);
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.logo {
+    height: 50px; 
+}
+
+.titulo-servicios h2 {
+    color: var(--color01); 
+    margin: 20px 0 10px 0; 
+}
+
+.linea-gris {
+    height: 2px;
+    background-color: var(--color03);
+    margin-bottom: 20px;
+}
+
+.contenido-servicios {
+    display: flex;
+    align-items: center; 
+    margin-bottom: 20px; 
+}
+
+.imagen-servicio {
+    width: 50%; 
+    margin-right: 20px; 
+}
+
+.texto-servicio {
+    width: 50%; 
+    color: var(--color02); 
+}
